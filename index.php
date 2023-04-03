@@ -8,8 +8,11 @@
     </head>
     <body>
         <?php 
-            for( $numero=0; $numero % 2 == 1; $numero<=100; $numero++){
-                    echo $numero . "<br>";
+            for( $numero = 0;$numero<=100; $numero++){
+
+                    if($numero % 2 == 1){
+                            echo $numero . "<br>";
+                    }
             }
         ?>
     </body>
